@@ -1,0 +1,42 @@
+/* Estilo base del wrapper */
+.ts-wrapper {
+  background-color: #212529;
+  border: 2px solid #495057;
+  color: #e0e0e0;
+  border-radius: 6px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* Elemento desplegable */
+.ts-wrapper .ts-dropdown {
+  background-color: #212529;
+  border: 2px solid #495057;
+  border-radius: 6px;
+}
+
+/* Opción activa o con hover */
+.ts-wrapper .ts-dropdown .active {
+  background-color: #212529;
+  color: #adb5bd;
+}
+/* Control principal (input) */
+
+.ts-wrapper .ts-control {
+  background-color: #212529 !important;
+  color: #adb5bd !important;
+  border: none;
+  box-shadow: none;
+  font-family: Helvetica;
+}
+
+.ts-wrapper input {
+  color: #adb5bd !important;
+  font-weight: bold;
+  background-color: transparent;
+  caret-color: #adb5bd;
+}
+
+.ts-wrapper input::placeholder {
+  color: #adb5bd;
+}
